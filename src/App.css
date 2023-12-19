@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body {background-color: antiquewhite;}
+
+.myCards  {height: 40rem; background-color: #282c34;}
+.myCards img {height: 30rem;}
+.myCards h4 {color: white;}
