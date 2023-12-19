@@ -1,7 +1,10 @@
-import { Alert } from "react-bootstrap"
+import Alert from "react-bootstrap/Alert"
 const Welcome = () => {
-  <Alert className="text-center">
-    <h1>The Roman's Bookshop!</h1>
-  </Alert>
+  return(
+  <div>
+    <Alert className="text-center bg-dark text-light">
+      <h1>The Roman's Bookshop!</h1>
+    </Alert>
+  </div>)
 }
 export default Welcome
