@@ -1,28 +1,30 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
-import MyNav from "./component/MyNav"
-import Welcome from "./component/Welcome"
-import SingleBook from "./component/SingleBook"
-import Container from "react-bootstrap/Container"
-import AllTheBooks from "./component/AllTheBooks"
-import MyFooter from "./component/MyFooter"
+import MyNav from "./components/MyNav"
+import MyFooter from "./components/MyFooter"
+/* import MyJumbotron from './components/MyJumbotron'; */
+// import AllTheBooks from './components/AllTheBooks';
+import BookList from "./components/BookList"
+import { Container } from "react-bootstrap"
 
 function App() {
   return (
-    <div id="pageContainer">
-      <div>
-        <MyNav />
-      </div>
-      <div>
-        <Container>
-          <Welcome />
-          <AllTheBooks />
-        </Container>
-      </div>
-      <div>
+    <>
+      <Container fluid className="position-sticky sticky-top">
+        <span id="inizio"></span>
+        <span>
+          <MyNav />
+        </span>
+      </Container>
+      <Container fluid></Container>
+      <Container>
+        {/* <AllTheBooks /> */}
+        <BookList />
+      </Container>
+      <Container fluid>
         <MyFooter />
-      </div>
-    </div>
+      </Container>
+    </>
   )
 }
 
