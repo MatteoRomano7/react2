@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
-import Welcome from "./component/Welcome"
 import MyNav from "./component/MyNav"
+import Welcome from "./component/Welcome"
 import Container from "react-bootstrap/Container"
 import Books from "./component/Books"
 import MyFooter from "./component/MyFooter"
@@ -14,9 +14,9 @@ function App() {
         </div>
       <div>
         <Container>
-        <Welcome />
-        <Books />
-      </Container>
+          <Welcome />
+          <Books />
+        </Container>
       </div>
       <div>
         <MyFooter />
