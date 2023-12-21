@@ -2,7 +2,7 @@ import { Navbar, Nav } from "react-bootstrap"
 
 const MyNav = () => (
   <Navbar bg="dark" variant="dark" className="p-2">
-    <Navbar.Brand href="http://localhost:3000/">Roman's Bokstore!</Navbar.Brand>
+    <Navbar.Brand href="http://localhost:3000/">Roman's Bookshop!</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="http://localhost:3000/">Shop</Nav.Link>
       <Nav.Link href="#fantasy">Fantasy</Nav.Link>
