@@ -1,7 +1,7 @@
 const MyFooter = () => (
-  <footer className="d-flex bg-dark p-2">
+  <footer className="d-flex bg-dark">
     <span className="text-white m-auto">
-      <strong>Romano Editore</strong> - Copyright {new Date().getFullYear()}
+      <strong>EPICODE</strong> - Copyright {new Date().getFullYear()}
     </span>
   </footer>
 )
